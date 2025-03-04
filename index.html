@@ -1,43 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Révisions JS</title>
-  <link rel="shortcut icon" href="https://webdevoo.com/assets/logo/logo-comete-webdevoo-green-2023-rounded-256x256.ico?v=0.0.3" type="image/x-icon">
-  <style>
-    *,
-    *::before,
-    *::after{
-      box-sizing:border-box;
-    }
-
-    html,
-    body{
-      margin:0;
-      padding:0;
-    }
-
-    body{
-      font-family:system-ui,sans-serif;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Tâches</title>
+    
 </head>
 <body>
-  <head class="main-head">
-    <h1 class="main-head-title">
-      Révisions Javascript
-    </h1>
-    <p>
-      Ouvrez votre console pour voir tous les tests en cours.
-    </p>
-  </head>
+    <h1>Gestionnaire de Tâches</h1>
+    
+    <div class="input-container">
+        <input type="text" id="taskInput" placeholder="Ajouter une nouvelle tâche...">
+        <button id="addButton">Ajouter</button>
+    </div>
+    
+    <ul id="taskList"></ul>
 
-  <script src="./sources/js/revisions.js"></script>
-  <script type="module" src="./source/js/train-modules.js"></script>
-  <script type="module" src="./source/js/train-async.js"></script>
-  <script type="module" src="./sources/js/export.js"></script>
-  <script type="module" src="./sources/js/import.js"></script>
-  <script type="module" src="./sources/js/test-api.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
