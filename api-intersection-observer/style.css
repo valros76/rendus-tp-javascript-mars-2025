@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:system-ui,sans-serif;
+  background-color:#fff;
+}
+
+.main-head{
+  min-height:20dvh;
+  background-color:#e9e9e9;
+}
+
+.main-content{
+  min-height:200dvh;
+}
+
+.main-sections{
+  width:100%;
+  min-height:120dvh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:stretch;
+  gap:4rem;
+}
+
+.main-foot{
+  min-height:40dvh;
+  background-color:#e9e9e9;
+}
